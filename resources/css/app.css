@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav_item{
+
+    @apply flex space-x-4 items-center text-gray-600
+}
+
+.active_nav{
+    @apply text-primary border-r-2 border-primary 
+}
