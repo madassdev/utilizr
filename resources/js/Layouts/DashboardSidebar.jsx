@@ -28,7 +28,7 @@ function DashboardSidebar() {
                 <Link href={route("dashboard.index")}>
                     <div
                         className={`nav_item ${
-                            path.startsWith(prefix + "/services") &&
+                            path.startsWith(prefix + "/buy") &&
                             "active_nav"
                         }`}
                     >

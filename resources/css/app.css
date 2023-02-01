@@ -11,3 +11,11 @@
 .active_nav{
     @apply text-primary border-r-2 border-primary 
 }
+
+.numberInput{
+    @apply rounded-xl border-gray-300 w-full max-w-md
+}
+
+.btn{
+    @apply rounded-xl p-2 px-4
+}
